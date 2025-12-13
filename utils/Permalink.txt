@@ -1,0 +1,19 @@
+-- TUTORIALS
+https://www.w3schools.com/python/
+
+
+-- GİTHUB
+https://github.com/hamitmizrak/python_techcareer_2025_101_1
+
+
+-- KURULUMU VİDEOSU
+https://www.youtube.com/watch?v=IWekkVSXRsU
+
+-- DOWNLOAD
+https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=windows
+https://www.python.org/downloads/release/pymanager-252/
+https://git-scm.com/install/
+
+-- VERSION
+git --version
+python --version
