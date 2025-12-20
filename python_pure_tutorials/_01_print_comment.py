@@ -49,6 +49,13 @@ Merhabalar Python Öğreniyorum *** \n\tDünyasına hoşgeldiniz
 
 
 # =============================================
+# NON-ESCAPE CHARACTER(\) raw String(Ham String)
+# r: escape character(r devre dışı bırakmak için kullanıyoruz.)
+# =============================================
+print("C:\\User\\AppData")
+print(r"C:\\User\\AppData")
+
+# =============================================
 # VARIABLE
 # =============================================
 # Değişken isimlendirmelerde
