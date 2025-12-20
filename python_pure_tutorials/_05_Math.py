@@ -32,3 +32,7 @@ print("En büyük: ", max(number_list))
 print("En küçük: ", min(number_list))
 print("Sum: ", sum(number_list))
 print("Average: ", sum(number_list)/len(number_list))
+
+# String
+# Conditional
+# Loop
