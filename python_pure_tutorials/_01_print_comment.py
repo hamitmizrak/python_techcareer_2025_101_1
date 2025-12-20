@@ -55,6 +55,16 @@ Merhabalar Python Öğreniyorum *** \n\tDünyasına hoşgeldiniz
 print("C:\\User\\AppData")
 print(r"C:\\User\\AppData")
 
+print(
+"""
+yeni\nsatır
+""")
+
+print(
+r"""
+yeni\nsatır
+""")
+
 # =============================================
 # VARIABLE
 # =============================================
