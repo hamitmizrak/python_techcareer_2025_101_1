@@ -47,6 +47,10 @@ print("""
 Merhabalar Python Öğreniyorum *** \n\tDünyasına hoşgeldiniz
 """)
 
+
+# =============================================
+# VARIABLE
+# =============================================
 # Değişken isimlendirmelerde
 name = "Hamit"
 surname = "Mızrak"
