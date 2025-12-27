@@ -9,5 +9,5 @@ from datetime import datetime
 user_input= input("Tarih Giriniz: (YYYY-MM-DD): ")
 
 # Formatter
-date_object= datetime.strftime(user_input, '%Y-%m-%d')
+date_object= datetime.strptime(user_input, '%Y-%m-%d')
 print(f"Güncel Format Tarih: {date_object}")
