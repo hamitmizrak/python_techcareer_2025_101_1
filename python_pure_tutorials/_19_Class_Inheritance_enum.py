@@ -1,5 +1,6 @@
 import logging
 import os
+from enum import Enum
 
 # Log dosyasının adını tanımla
 log_dosya_adi= "araba_log.txt"
@@ -20,4 +21,20 @@ logging.basicConfig(
 )
 
 
-# ENUM
+# ENUM (RENK)
+class Renk(Enum):
+    KIRMIZI = '\033[91m'
+    YESIL = '\033[92m'
+    SARI = '\033[93m'
+    MAVI = '\033[94m'
+    BEYAZ = '\033[97m'
+    SIFIRLA = '\033[0m'
+
+
+# ENUM (YAKIT TÜRÜ)
+class YakitTuru(Enum):
+    BENZIN= "Benzin",
+    DIZEL= "Dizel",
+    ELEKTRIK= "Elektrik"
+    HIBRIT= "Hibrit"
+    BILINMIYOR ="Bilinmiyor"
